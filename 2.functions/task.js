@@ -16,7 +16,7 @@ function summElementsWorker(...arr) {
 	if (arr.length === 0) {
 		return 0;
 	};
-	avg = arr.reduce((a, b) => a + b);
+	let avg = arr.reduce((a, b) => a + b);
 	return avg
 }
 
